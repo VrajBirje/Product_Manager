@@ -1,0 +1,145 @@
+div.sidebar {
+    height: 100%;
+    width: 17%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background: #4D44B5;
+}
+
+.sidebar p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #C1BBEB;
+    display: block;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+p.active {
+    margin-left: 0;
+    background-color: #F3F4FF;
+    color: #4D44B5;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+
+}
+h2.heading{
+    color: #303972;
+}
+
+.logo {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.section {
+    display: flex;
+    color: #C1BBEB;
+    align-items: center;
+    justify-content: flex-start;
+    height: 43px;
+    margin-bottom: 5vh;
+    margin-left: 5%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section:hover {
+    transform: scale(1.1);
+}
+
+.icontext {
+    color: #C1BBEB;
+}
+
+.sectionbutton {
+    background-color: #F3F4FF;
+    border-radius: 20px 0 0 20px;
+    margin-left: 20%;
+}
+
+.active {
+    background-color: #4D44B5;
+    margin-left: 20%;
+}
+
+.activeIcon {
+    color: #4D44B5;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.topbar{
+    /* background-color: #F0EFFC; */
+    background-color: #F3F4FF;
+    margin-left: 17%;
+    z-index: 3;
+    top: 0;
+    margin-bottom: 2vh;
+    margin-top: 20px;
+}
+
+.flex1{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading h2{
+    color: #303972;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.iconTopbar{
+    height: 5vh;
+    width: 5vh;
+    color: #A098AE;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.profilename{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 640;
+    color: #303972;
+}
+.admin{
+    margin: 0;
+    font-size: 12px;
+    color: #A098AE;
+}

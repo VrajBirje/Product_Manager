@@ -1,6 +1,44 @@
-# Getting Started with Create React App
+# Product Manager
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description: 
+
+Product Manager is a web application designed to manage products efficiently. It allows users to perform essential operations such as creating, reading, updating, and deleting products. The website is developed using ReactJS with additional support from Node packages. CSS and Material UI are employed for styling, and the development environment is Visual Studio Code.  
+
+## Features: 
+
+## Display Products
+
+Utilizes a GET API to fetch and display all products in a table.
+Products can be conveniently searched using the provided search bar.
+
+## Add Product
+
+Incorporates a POST API to add a new product to the list.
+Displays a success message upon successful addition.
+Inputs undergo validation before making the API call.
+Note: The assumption is made that only 30 products are displayed by default, which may affect the visibility of newly added products in the table.
+
+## Edit Product
+
+Employs a PUT API to edit product details.
+Success message is displayed upon successful modification.
+Input validation is implemented before initiating the API call.
+Note: Assumption is that changes made are not permanent, and reloading the site reverts to the old data.
+
+## Delete Product
+
+Utilizes a DELETE API to remove a product from the list.
+Displays a confirmation message upon successful deletion.
+
+## Consistent Components
+
+Includes components such as Top Bar, Side Bar, and Progress Indicators that are present on all sections/pages of the website.
+
+## React Router
+
+Utilizes React Router for seamless navigation between different sections/pages of the website.
 
 ## Available Scripts
 

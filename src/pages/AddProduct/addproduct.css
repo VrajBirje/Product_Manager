@@ -1,0 +1,67 @@
+body{
+    background-color: #F3F4FF;
+}
+div.addproduct{
+    margin-left: 22%;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    max-width: 71%;
+    margin-right: 7%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+p.labelAdd{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: #303972;
+    font-weight: 600;
+}
+
+.edit{
+    width: 100%;
+}
+
+.addContainer{
+    padding: 20px 30px;
+}
+
+.formHeading{
+    border-radius: 20px 20px 0 0;
+    color: #FFFFFF;
+    background-color: #4D44B5;
+    font-weight: 600;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+button.addSubmit{
+    margin-bottom: 5%;
+    color: white;
+    font-weight: 100;
+    background-color: #4D44B5;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.submitbutton{
+    margin-left: 22%;
+    display: flex;
+    justify-content: center;
+    max-width: 71%;
+}
+
+
+.links{
+    width: 100%;
+}
