@@ -211,7 +211,7 @@ export const AddProduct = () => {
               </Grid>
               <Grid item xs={4}>
                 <p className='labelAdd'>Stock *</p>
-                <TextField className='edit' id="Stock" name="stock" placeholder="stock" value={productData.stock} onChange={handleChange} error={Boolean(errorMessages.stock)} helperText={errorMessages.stock} />
+                <TextField type='number' className='edit' id="Stock" name="stock" placeholder="stock" value={productData.stock} onChange={handleChange} error={Boolean(errorMessages.stock)} helperText={errorMessages.stock} />
               </Grid>
               <Grid item xs={4}>
                 <p className='labelAdd'>Category *</p>
@@ -224,7 +224,7 @@ export const AddProduct = () => {
               </Grid>
               <Grid item xs={6}>
                 <p className='labelAdd'>Rating *</p>
-                <TextField className='edit' id="Rating" name="rating" placeholder="Rating" value={productData.rating} onChange={handleChange} 
+                <TextField className='edit' type='number' id="Rating" name="rating" placeholder="Rating" value={productData.rating} onChange={handleChange} 
                 error={Boolean(errorMessages.rating)} 
                 helperText={errorMessages.rating} 
                 
