@@ -100,7 +100,7 @@ export default function EditDialog({ Product, index, setProducts, products, upda
         .then(res => res.json())
         .then(updatedProduct => {
           const updatedProducts = [...products];
-          console.log(updatedProducts)
+         
           updatedProducts[index] = updatedProduct;
           setProducts(updatedProducts);
           setOpenSnackbar(true);
@@ -110,7 +110,7 @@ export default function EditDialog({ Product, index, setProducts, products, upda
           console.log('Product updated:', updatedProduct);
           setProduct(updatedProduct);
 
-          console.log(products)
+         
           handleClose();
 
         })
@@ -131,8 +131,7 @@ export default function EditDialog({ Product, index, setProducts, products, upda
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name);
-    console.log(value);
+  
     if (name && name.startsWith('images')) {
 
       const index = parseInt(name.match(/\d+/)[0], 10);
@@ -149,7 +148,7 @@ export default function EditDialog({ Product, index, setProducts, products, upda
         ...product,
         [name]: value,
       });
-      console.log(name,value)
+    
     }
 
     setErrorMessages({
