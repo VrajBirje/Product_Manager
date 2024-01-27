@@ -61,6 +61,7 @@ const ProductTable = () => {
   }, []);
   const updateProducts = (updatedProducts) => {
     setProducts(updatedProducts);
+    setFilteredProducts(updatedProducts);
   };
   const handleSearch = (e) => {
     const searchValue = e.target.value.toLowerCase();
