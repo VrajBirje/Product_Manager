@@ -60,7 +60,7 @@ const ProductTable = () => {
     fetchData();
   }, []);
   const updateProducts = (updatedProducts) => {
-    setProducts(updatedProducts);
+    // setProducts(updatedProducts);
     setFilteredProducts(updatedProducts);
   };
   const handleSearch = (e) => {
@@ -118,7 +118,6 @@ const ProductTable = () => {
                 <StyledTableCell align="left">Description</StyledTableCell>
                 <StyledTableCell align="left">Price</StyledTableCell>
                 <StyledTableCell align="left">Brand</StyledTableCell>
-                <StyledTableCell align="left">Discount%</StyledTableCell>
                 <StyledTableCell align="left">Category</StyledTableCell>
                 <StyledTableCell align="left">Stock</StyledTableCell>
                 <StyledTableCell align="left">Rating</StyledTableCell>
@@ -136,7 +135,6 @@ const ProductTable = () => {
                   <StyledTableCell align="left">{product.description}</StyledTableCell>
                   <StyledTableCell align="left">{product.price}</StyledTableCell>
                   <StyledTableCell align="left">{product.brand}</StyledTableCell>
-                  <StyledTableCell align="left">{product.discountPercentage}</StyledTableCell>
                   <StyledTableCell align="left">{product.category}</StyledTableCell>
                   <StyledTableCell align="left">{product.stock}</StyledTableCell>
                   <StyledTableCell align="left">{product.rating}</StyledTableCell>

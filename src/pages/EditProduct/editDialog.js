@@ -89,9 +89,9 @@ export default function EditDialog({ Product, index, setProducts, products, upda
           title: product.title,
           brand: product.brand,
           description: product.description,
+          discountPercentage: product.discountPercentage,
           price: product.price,
           category: product.category,
-          discountPercentage: product.discountPercentage,
           thumbnail: product.thumbnail,
           rating: product.rating,
           images: product.images
@@ -104,6 +104,7 @@ export default function EditDialog({ Product, index, setProducts, products, upda
           updatedProducts[index] = updatedProduct;
           setProducts(updatedProducts);
           setOpenSnackbar(true);
+          console.log(updatedProducts);
 
           updateProducts(updatedProducts);
 
